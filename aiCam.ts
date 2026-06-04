@@ -85,10 +85,10 @@ export function begin(
         rx,
         baud
     )
-    basic.pause(25)
+    basic.pause(200)
     let strVal = serial.readUntil(serial.delimiters(Delimiters.NewLine))
     parseLine(strVal)
-    basic.pause(25)
+   // basic.pause(25)
 }
 
 
