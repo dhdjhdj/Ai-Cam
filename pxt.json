@@ -1,24 +1,12 @@
 {
     "name": "Ai-Cam",
-    "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
-        "README.md",
         "aiCam.ts"
     ],
     "testFiles": [
         "test.ts"
-    ],
-    "targetVersions": {
-        "target": "8.0.22",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "tsprj"
+    ]
 }
