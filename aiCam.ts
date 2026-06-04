@@ -107,7 +107,7 @@ namespace AiCam {
             rx,
             baud
         )
-        basic.pause(150)
+        basic.pause(205)
         let strVal = serial.readUntil(serial.delimiters(Delimiters.NewLine))
         parseLine(strVal)
     }
